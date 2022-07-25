@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class VolumeEsfera {
  public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-//TODO: Complete os espaços em branco com uma possível solução para o desafio 
 		double pi = 3.14159;
 		double R = sc.nextDouble();
 		double volume = (4/3.0) * pi * (Math.pow(R, 3.0));
